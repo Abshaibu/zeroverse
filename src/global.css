@@ -198,6 +198,11 @@ html,body {
     border-radius: 0 0 1rem 1rem;
   }
 
+  .cardTexts p {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
   .cardsContainer .card:nth-child(1) .cardTexts {
     background-color: #FFEB00;
   }
