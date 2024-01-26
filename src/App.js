@@ -1,7 +1,7 @@
 import React, {useRef, useState} from 'react';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import { LightHeart, RedHeart, RightArrow, leftArrow, Message, Share } from './assets/svg';
+import { LightHeart, RedHeart, RightArrow, leftArrow, Message, Share, DarkAppStore, PlayStore, AppStore } from './assets/svg';
 import {
   LightAppStore,
   LightPlayStore,
@@ -46,8 +46,7 @@ function App() {
   const cardsList = [
     {
       cardImg: Phone1,
-      title: "Log in with email",
-      subTitle: "Enter your email address and password to proceed.",
+      subTitle: "Create public board.",
       likes: "52k",
       messages: "1.3k",
       shares: "463",
@@ -55,8 +54,7 @@ function App() {
     },
     {
       cardImg: Phone2,
-      title: "Log in with email",
-      subTitle: "Enter your email address and password to proceed.",
+      subTitle: "Create private boards.",
       likes: "200",
       messages: "135",
       shares: "22",
@@ -64,8 +62,8 @@ function App() {
     },
     {
       cardImg: Phone3,
-      title: "Log in with email",
-      subTitle: "Enter your email address and password to proceed.",
+      subTitle:
+        "Have timeline board interactions private to only friends and family.",
       likes: "200",
       messages: "153",
       shares: "22",
@@ -73,8 +71,7 @@ function App() {
     },
     {
       cardImg: Phone4,
-      title: "Log in with email",
-      subTitle: "Enter your email address and password to proceed.",
+      subTitle: "Share your favorite boards, get superliked.",
       likes: "22",
       messages: "16",
       shares: "2",
@@ -89,7 +86,7 @@ function App() {
       <main>
         <section>
           <div className="container">
-            <h1>Content sharing like never before.</h1>
+            <h1>The Social Sharing.</h1>
           </div>
           <div className="container">
             <div className="controls">
@@ -140,9 +137,9 @@ function App() {
               </div>
             ))}
             <div className="comingSoonCard">
-              <img src={ComingSoonText} alt="coming soon" />
-              <img src={LightAppStore} alt="appstore" />
-              <img src={LightPlayStore} alt="playstore" />
+              <span>Get it now</span>
+              <img src={AppStore} alt="appstore" />
+              <img src={PlayStore} alt="playstore" />
             </div>
           </div>
         </section>

@@ -19,10 +19,10 @@ const index = () => {
           </li>
         </ul>
       </nav>
-      <div className={style.storesLinkWrapper}>
+      {/* <div className={style.storesLinkWrapper}>
         <img src={DarkPlayStore} alt="playstore" />
         <img src={DarkAppStore} alt="appstore" />
-      </div>
+      </div> */}
     </footer>
   );
 }

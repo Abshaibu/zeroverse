@@ -244,3 +244,15 @@ html,body {
   .comingSoonCard img {
     width: 11.25rem;
   }
+
+  .comingSoonCard span {
+    font-weight: 600;
+    font-size: 1.45rem;
+    background: #FF0080;
+background: linear-gradient(to right, #FF0080 14%, #FFB100 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+    font-family: 'Roc Grotesk';
+  }
