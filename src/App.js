@@ -1,11 +1,11 @@
 import React, {useRef, useState} from 'react';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import { LightHeart, RedHeart, RightArrow, leftArrow, Message, Share, DarkAppStore, PlayStore, AppStore } from './assets/svg';
+import { LightHeart, RedHeart, RightArrow, leftArrow, Message, Share, PlayStore, AppStore } from './assets/svg';
 import {
-  LightAppStore,
-  LightPlayStore,
-  ComingSoonText,
+  // LightAppStore,
+  // LightPlayStore,
+  // ComingSoonText,
   Phone1,
   Phone2,
   Phone3,

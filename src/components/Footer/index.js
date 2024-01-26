@@ -1,6 +1,6 @@
 import React from 'react'
-import { DarkAppStore, DarkPlayStore } from '../../assets/svg';
-import style from './Footer.module.css'
+// import { Dark } from '../../assets/svg';
+// import style from './Footer.module.css'
 
 const index = () => {
   return (
