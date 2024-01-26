@@ -256,3 +256,70 @@ background-clip: text;
 
     font-family: 'Roc Grotesk';
   }
+
+  footer.container {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    font-size: 12px;
+    gap: 2rem;
+    padding: 4rem 0 2rem;
+}
+
+@media (max-width: 917px) {
+footer.container {
+  justify-content: center;
+        margin: 5rem auto 2rem !important;
+    }
+
+/* .storesLinkWrapper {
+    order: 0;
+} */
+
+footer p {
+    order: 3;
+    text-align: center;
+}
+
+footer nav {
+    order: 2;
+}
+}
+
+@media (max-width: 593px) {
+footer {
+    justify-content: center;
+}
+}
+
+
+footer ul {
+    list-style: none;
+    display: flex;
+    gap: 1.7rem;
+}
+
+footer ul li a {
+    text-transform: uppercase;
+    text-decoration: underline;
+text-decoration-color: #7a7777;
+text-decoration-thickness: 1.5px;
+    font-weight: 900;
+}
+
+footer li a:hover, footer li a:focus {
+text-decoration: none;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .storesLinkWrapper {
+display: flex;
+gap: 1rem;
+} */
+

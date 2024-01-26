@@ -1,10 +1,10 @@
 import React from 'react'
-// import { Dark } from '../../assets/svg';
+// import { DarkAppStore, DarkPlayStore } from '../../assets/svg';
 // import style from './Footer.module.css'
 
 const index = () => {
   return (
-    <footer className="container">
+    <footer className='container'>
       <p>COPYRIGHT © 2023 ZEROVERSE</p>
       <nav>
         <ul>
