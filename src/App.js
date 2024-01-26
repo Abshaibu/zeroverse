@@ -86,7 +86,7 @@ function App() {
       <main>
         <section>
           <div className="container">
-            <h1>The Social Sharing.</h1>
+            <h1>The Social Sharing App.</h1>
           </div>
           <div className="container">
             <div className="controls">
