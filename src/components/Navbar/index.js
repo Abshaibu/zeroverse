@@ -21,16 +21,6 @@ const index = () => {
           <BsLinkedin />
         </NavLink>
       </div>
-      <form className={style.waitlistContainer}>
-        <input
-          type="email"
-          name="email"
-          id="email"
-          required
-          placeholder="Enter email address"
-        />
-        <button type="submit">join waitlist</button>
-      </form>
     </header>
   );
 };

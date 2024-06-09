@@ -1,4 +1,4 @@
-export { default as LightAppStore } from "./light-appstore.png";
+export { default as LightAppStore } from "./light-appstore.svg";
 export { default as LightPlayStore } from "./light-playstore.png";
 export { default as ComingSoonText } from "./coming-soon.png";
 export { default as Phone1 } from "./iphoneMockUp1.png";

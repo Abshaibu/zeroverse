@@ -1,10 +1,10 @@
 import React from 'react'
-import { DarkAppStore, DarkPlayStore } from '../../assets/svg';
-import style from './Footer.module.css'
+// import { DarkAppStore, DarkPlayStore } from '../../assets/svg';
+// import style from './Footer.module.css'
 
 const index = () => {
   return (
-    <footer className="container">
+    <footer className='container'>
       <p>COPYRIGHT © 2023 ZEROVERSE</p>
       <nav>
         <ul>
@@ -19,10 +19,10 @@ const index = () => {
           </li>
         </ul>
       </nav>
-      <div className={style.storesLinkWrapper}>
+      {/* <div className={style.storesLinkWrapper}>
         <img src={DarkPlayStore} alt="playstore" />
         <img src={DarkAppStore} alt="appstore" />
-      </div>
+      </div> */}
     </footer>
   );
 }

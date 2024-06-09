@@ -7,12 +7,6 @@ header {
     flex-wrap: wrap;
 }
 
-@media (max-width: 701px) {
-form {
-    margin: 0 auto;
-}
-}
-
 .waitlistContainer {
     height: 44px;
     border: 2px solid #000;
@@ -22,7 +16,6 @@ border-radius: 1rem;
 max-width: 344px;
 display: flex;
 align-items: center;
-justify-content: space-between;
 width: 100%;
 overflow: hidden;
 }
@@ -36,14 +29,6 @@ button {
     font-weight: 700;
     padding: 0 1.49rem;
     letter-spacing: 0.72px;
-}
-
-input {
-    padding-left: 1rem;
-}
-
-input::placeholder {
-    color: #000;
 }
 
 button, input {
@@ -73,11 +58,11 @@ border-radius: 50%;
     font-size: 1.3rem;
 }
 
-.social-links a:hover {
-background: #000000;
-padding: 0.6rem;
-}
-
 .social-links a:hover svg {
     fill: #FFEB00;
+}
+
+.social-links a:hover, .social-links a:focus {
+background: #000000;
+padding: 0.6rem;
 }

@@ -8,3 +8,7 @@ export { default as Share } from "./share.svg";
 export { default as Message } from "./message.svg";
 export { default as Logo } from "./logo.svg";
 export { default as BgPattern } from "./bgPattern.svg";
+
+export { default as PlayStore } from "./playstore.svg";
+
+export { default as AppStore } from "./applestore.svg";
